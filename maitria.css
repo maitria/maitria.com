@@ -19,17 +19,9 @@ body {
   border-bottom: solid gray 1px;
 }
 
-/* hack to allow floated things to stay inside their div */
-.segment:last-child:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
 .thing {
-  float: left;
+  display: inline-block;
   margin-right: 2%;
   margin-left: 2%;
   width: 20%;
 }
-
