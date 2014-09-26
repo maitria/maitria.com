@@ -14,13 +14,13 @@ body {
   font-weight: 200;  
 }
 
-#three-things {
+#segment {
   border-top: solid gray 1px;
   border-bottom: solid gray 1px;
 }
 
 /* hack to allow floated things to stay inside their div */
-#three-things:last-child:after {
+#segment:last-child:after {
   content: " ";
   display: block;
   clear: both;
@@ -28,8 +28,8 @@ body {
 
 .thing {
   float: left;
-  margin-right: 1.5%;
-  margin-left: 1.5%;
-  width: 30.33%;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 20%;
 }
 
