@@ -19,9 +19,15 @@ body {
   border-bottom: solid gray 1px;
 }
 
-.thing {
-  display: inline-block;
-  margin-right: 2%;
-  margin-left: 2%;
-  width: 20%;
+@media (max-width: 400px) {
+  .thing { width: 96%; }
+}
+
+@media (min-width: 600px) {
+  .thing {
+    display: inline-block;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 20%;
+  }
 }
