@@ -14,13 +14,13 @@ body {
   font-weight: 200;  
 }
 
-#segment {
+.segment {
   border-top: solid gray 1px;
   border-bottom: solid gray 1px;
 }
 
 /* hack to allow floated things to stay inside their div */
-#segment:last-child:after {
+.segment:last-child:after {
   content: " ";
   display: block;
   clear: both;
