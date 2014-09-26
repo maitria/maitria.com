@@ -1,10 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 body {
+  max-width: 1300px;
+  min-width: 300px;
   margin: 0px;
-  font-family: "Source Sans Pro", "Georgia", serif;
+  font-family: "Source Sans Pro", "Helvetica", sans-serif;
   font-weight: 300;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 #greeting {
@@ -14,20 +14,36 @@ body {
   font-weight: 200;  
 }
 
+@media (min-width: 1300px) {
+  #greeting {
+  font-size: 234px;
+  } 
+ }
+
 .segment {
+  text-align: center;
+  }
+
+.thing { 
+  margin: 0px;
+  padding-left: 2%;
+  padding-right: 2%;
+  vertical-align: top;
   border-top: solid gray 1px;
-  border-bottom: solid gray 1px;
+  width: 90%; 
+  display: inline-block;
+  background: #eee;
 }
 
-@media (max-width: 400px) {
-  .thing { width: 96%; }
+@media (min-width: 500px) {
+  .thing { 
+    width: 40%; 
+  }
 }
 
-@media (min-width: 600px) {
-  .thing {
-    display: inline-block;
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 20%;
+@media (min-width: 800px) {
+  .thing { 
+    width: 20%; 
+    border-bottom: solid gray 1px;
   }
 }
