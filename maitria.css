@@ -1,10 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
 body {
   margin: 0px;
+  font-family: "Source Sans Pro", "Georgia", serif;
+  font-weight: 300;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #greeting {
-  width: 100%;
+  color: gray;
   text-align: center;
-  font-size: 20vw;
+  font-size: 18vw;
+  font-weight: 200;  
+}
+
+#three-things {
+  border-top: solid gray 1px;
+  border-bottom: solid gray 1px;
+}
+
+/* hack to allow floated things to stay inside their div */
+#three-things:last-child:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+.thing {
+  float: left;
+  margin-right: 1.5%;
+  margin-left: 1.5%;
+  width: 30.33%;
 }
 
