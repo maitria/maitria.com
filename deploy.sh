@@ -12,5 +12,5 @@ echo 'pushing to master'
 git push origin master:master
 echo 'pushed'
 echo 'deploying to maitria webserver'
-rsync -r --progress ./site/ root@104.131.105.47:/srv/maitria.com 
+rsync -r --progress --delete ./site/ root@104.131.105.47:/srv/maitria.com 
 echo 'deployed'
