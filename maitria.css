@@ -7,21 +7,24 @@ body {
   font-weight: 300;
 }
 
-#header img {
+#header span {
   margin-left: 15px;
-  margin-right: 15px;
-  float: left;
+  }
+
+#header img {
+  vertical-align: bottom;
   }
 
 #header {
-  border-bottom: solid gray 1px;
-  font-size: 3em;
+  padding: 15px;
+  border-bottom: solid #ccc 1px;
+  font-size: 2.5em;
   }
 
 #greeting {
-  color: ff6600;
-  padding-top: .25em;
-  padding-bottom: .5em;
+  color: #999;
+  padding-top: .1em;
+  padding-bottom: .2em;
   text-align: center;
   font-size: 18vw;
   font-weight: 200;  
@@ -37,26 +40,29 @@ body {
   text-align: center;
   }
 
-.thing { 
-  margin: 0px;
-  padding-left: 2%;
-  padding-right: 2%;
-  vertical-align: top;
-  border-top: solid gray 1px;
-  width: 90%; 
-  display: inline-block;
-  background: #eee;
-}
-
-@media (min-width: 500px) {
-  .thing { 
-    width: 40%; 
+.thing h3 {
+  color: #eb5e00;
   }
+
+.thing p {
+  text-align: center;
+  }
+
+.thing { 
+  height: 8em;
+  overflow: hidden;
+  margin: 2%;
+  padding: 0px;
+  vertical-align: top;
+  border-top: solid #ccc 1px;
+  display: inline-block;
+  max-width: 500px;
 }
 
 @media (min-width: 800px) {
   .thing { 
-    width: 20%; 
-    border-bottom: solid gray 1px;
+    height: 15em;
+    width: 25%; 
+    border-bottom: solid #ccc 1px;
   }
 }
