@@ -1,10 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 body {
   max-width: 1300px;
   min-width: 300px;
   margin: 0px;
   font-family: "Source Sans Pro", "Helvetica", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: #333;
 }
 
 #header span {
@@ -19,6 +20,7 @@ body {
   padding: 15px;
   border-bottom: solid #ccc 1px;
   font-size: 2.5em;
+  font-weight: 200;
   }
 
 #greeting {
@@ -38,6 +40,8 @@ body {
 
 .segment {
   text-align: center;
+  font-weight: 400;
+  color: #666;
   }
 
 .thing h3 {
@@ -45,7 +49,8 @@ body {
   }
 
 .thing p {
-  text-align: center;
+  line-height: 150%;
+  text-align: left;
   }
 
 .thing { 
