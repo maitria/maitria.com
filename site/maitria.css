@@ -5,55 +5,42 @@ body {
   margin: 0px;
   font-family: "Source Sans Pro", "Helvetica", sans-serif;
   font-weight: 400;
-  color: #333;
-}
-
-#header span {
-  margin-left: 15px;
-  }
-
-#header img {
-  vertical-align: bottom;
-  }
+  color: #333; }
 
 #header {
   padding: 15px;
   border-bottom: solid #ccc 1px;
   font-size: 2.5em;
-  font-weight: 200;
-  }
+  font-weight: 200; }
+  #header span {
+    margin-left: 15px; }
+  #header img {
+    vertical-align: bottom; }
 
 #greeting {
   color: #999;
-  padding-top: .1em;
-  padding-bottom: .2em;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
   text-align: center;
   font-size: 18vw;
-  font-weight: 200;  
-}
+  font-weight: 200; }
 
 @media (min-width: 1300px) {
   #greeting {
-  font-size: 234px;
-  } 
- }
-
+    font-size: 234px; } }
 .segment {
   text-align: center;
   font-weight: 400;
-  color: #666;
-  }
+  color: #666; }
 
 .thing h3 {
-  color: #eb5e00;
-  }
+  color: #eb5e00; }
 
 .thing p {
   line-height: 150%;
-  text-align: left;
-  }
+  text-align: left; }
 
-.thing { 
+.thing {
   height: 8em;
   overflow: hidden;
   margin: 2%;
@@ -61,13 +48,16 @@ body {
   vertical-align: top;
   border-top: solid #ccc 1px;
   display: inline-block;
-  max-width: 500px;
-}
+  max-width: 500px; }
+  .thing h3 {
+    color: #eb5300; }
+  .thing p {
+    line-height: 150%; }
 
 @media (min-width: 800px) {
-  .thing { 
+  .thing {
     height: 15em;
-    width: 25%; 
-    border-bottom: solid #ccc 1px;
-  }
-}
+    width: 25%;
+    border-bottom: solid #ccc 1px; } }
+
+/*# sourceMappingURL=maitria.css.map */
