@@ -7,9 +7,15 @@ body {
   font-weight: 300;
 }
 
+#header {
+  border-bottom: solid gray 1px;
+  height: 4em;
+  }
+
 #greeting {
-  color: gray;
-  padding-bottom: .25em;
+  color: ff6600;
+  padding-top: .25em;
+  padding-bottom: .5em;
   text-align: center;
   font-size: 18vw;
   font-weight: 200;  
