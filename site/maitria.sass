@@ -1,15 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400)
+
+//colors
+$maitria-orange: #eb5e00
+$dark-gray: #333
+$medium-gray: #666
+$light-gray: #999
+$airy-gray: #ccc
+
 body
   max-width: 1300px
   min-width: 300px
   margin: 0px
   font-family: "Source Sans Pro", "Helvetica", sans-serif
   font-weight: 400
-  color: #333
+  color: $dark-gray
 
 #header
   padding: 15px
-  border-bottom: solid #ccc 1px
+  border-bottom: solid $airy-gray 1px
   font-size: 2.5em
   font-weight: 200
   span
@@ -18,7 +26,7 @@ body
     vertical-align: bottom
 
 #greeting 
-  color: #999
+  color: $light-gray
   padding-top: .1em
   padding-bottom: .2em
   text-align: center
@@ -32,10 +40,10 @@ body
 .segment 
   text-align: center
   font-weight: 400
-  color: #666
+  color: $medium-gray
 
 .thing h3 
-  color: #eb5e00
+  color: $maitria-orange
 
 .thing p 
   line-height: 150%
@@ -47,11 +55,11 @@ body
   margin: 2%
   padding: 0px
   vertical-align: top
-  border-top: solid #ccc 1px
+  border-top: solid $airy-gray 1px
   display: inline-block
   max-width: 500px
   h3
-    color: #eb5300
+    color: $maitria-orange
   p
     line-height: 150%
 
@@ -59,4 +67,4 @@ body
   .thing  
     height: 15em
     width: 25% 
-    border-bottom: solid #ccc 1px
+    border-bottom: solid $airy-gray 1px
