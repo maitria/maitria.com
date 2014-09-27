@@ -7,9 +7,15 @@ body {
   font-weight: 300;
 }
 
+#header img {
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+  }
+
 #header {
   border-bottom: solid gray 1px;
-  height: 4em;
+  font-size: 3em;
   }
 
 #greeting {
