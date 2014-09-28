@@ -33,13 +33,6 @@ body {
   font-weight: 400;
   color: #666; }
 
-.thing h3 {
-  color: #eb5e00; }
-
-.thing p {
-  line-height: 150%;
-  text-align: left; }
-
 .thing {
   height: 8em;
   overflow: hidden;
@@ -52,11 +45,18 @@ body {
   .thing h3 {
     color: #eb5e00; }
   .thing p {
+    text-align: left;
     line-height: 150%; }
-  @media (min-width: 800px) {
+  @media (max-width: 800px) {
+    .thing {
+      font-size: 80%; } }
+  @media (min-width: 500px) {
     .thing {
       height: 15em;
       width: 25%;
       border-bottom: solid #ccc 1px; } }
+  @media (max-width: 500px) {
+    .thing {
+      font-size: 100%; } }
 
 /*# sourceMappingURL=maitria.css.map */

@@ -40,13 +40,6 @@ body
   font-weight: 400
   color: $medium-gray
 
-.thing h3 
-  color: $maitria-orange
-
-.thing p 
-  line-height: 150%
-  text-align: left
-
 .thing  
   height: 8em
   overflow: hidden
@@ -59,8 +52,13 @@ body
   h3
     color: $maitria-orange
   p
+    text-align: left
     line-height: 150%
-  @media (min-width: 800px) 
+  @media (max-width: 800px)
+    font-size: 80%
+  @media (min-width: 500px) 
     height: 15em
     width: 25% 
     border-bottom: solid $airy-gray 1px
+  @media (max-width: 500px)
+    font-size: 100%
