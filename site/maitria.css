@@ -24,10 +24,10 @@ body {
   text-align: center;
   font-size: 18vw;
   font-weight: 200; }
+  @media (min-width: 1300px) {
+    #greeting {
+      font-size: 234px; } }
 
-@media (min-width: 1300px) {
-  #greeting {
-    font-size: 234px; } }
 .segment {
   text-align: center;
   font-weight: 400;
@@ -53,11 +53,10 @@ body {
     color: #eb5e00; }
   .thing p {
     line-height: 150%; }
-
-@media (min-width: 800px) {
-  .thing {
-    height: 15em;
-    width: 25%;
-    border-bottom: solid #ccc 1px; } }
+  @media (min-width: 800px) {
+    .thing {
+      height: 15em;
+      width: 25%;
+      border-bottom: solid #ccc 1px; } }
 
 /*# sourceMappingURL=maitria.css.map */
