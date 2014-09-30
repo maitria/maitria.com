@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 body {
+  border-right: solid #ddd 1px;
   max-width: 1300px;
   min-width: 300px;
   margin: 0px;
@@ -9,16 +10,17 @@ body {
 
 #header {
   padding: 15px;
-  border-bottom: solid #ccc 1px;
+  border-bottom: solid #eb5e00 1px;
   font-size: 2.5em;
   font-weight: 200; }
   #header span {
-    margin-left: 15px; }
+    margin-left: 15px;
+    color: #333; }
   #header img {
     vertical-align: bottom; }
 
 #greeting {
-  color: #999;
+  color: #666;
   padding-top: 0.1em;
   padding-bottom: 0.2em;
   text-align: center;
@@ -28,36 +30,43 @@ body {
     #greeting {
       font-size: 234px; } }
 
-.segment {
+.segment, .dark-segment {
+  width: 100%;
   text-align: center;
   font-weight: 400;
-  color: #666; }
+  color: #333; }
 
-.thing {
-  height: 8em;
-  overflow: hidden;
+.dark-segment {
+  background: #ddd;
+  color: #1d1d1d; }
+
+.thing, .column, .single-thing {
   margin: 2%;
   padding: 0px;
   vertical-align: top;
-  border-top: solid #ccc 1px;
-  display: inline-block;
-  max-width: 500px; }
-  .thing h3 {
+  display: inline-block; }
+  .thing h3, .column h3, .single-thing h3 {
     text-align: center;
     color: #eb5e00; }
-  .thing p {
+  .thing p, .column p, .single-thing p {
     text-align: justify;
     line-height: 150%; }
+
+.column {
+  max-width: 500px; }
   @media (max-width: 800px) {
-    .thing {
+    .column {
       font-size: 80%; } }
   @media (min-width: 500px) {
-    .thing {
-      height: 15em;
-      width: 25%;
-      border-bottom: solid #ccc 1px; } }
+    .column {
+      width: 25%; } }
   @media (max-width: 500px) {
-    .thing {
+    .column {
       font-size: 100%; } }
+
+.single-thing {
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 100%; }
 
 /*# sourceMappingURL=maitria.css.map */
