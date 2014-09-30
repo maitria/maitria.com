@@ -57,12 +57,12 @@ body {
   @media (max-width: 800px) {
     .column {
       font-size: 80%; } }
-  @media (min-width: 500px) {
-    .column {
-      width: 25%; } }
   @media (max-width: 500px) {
     .column {
       font-size: 100%; } }
+  @media (min-width: 500px) {
+    .column {
+      width: 25%; } }
 
 .single-thing {
   margin-left: 8%;
