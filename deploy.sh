@@ -7,11 +7,21 @@ echo
 git status
 echo
 
+check_if_committed=`git status --porcelain`
+if ! [[ "$check_if_committed" = "" ]]
+then
+  echo "=========================================="
+  echo "No, you can't deploy without committing."
+  echo "=========================================="
+  exit 1
+fi
+
 branch=`git rev-parse --abbrev-ref HEAD`
 if ! [[ "$branch" = "master" ]]
 then
   echo "=========================================="
   echo "NO NO NO you can't deploy from this branch"
+  echo "=========================================="
   exit 1
 fi
 
