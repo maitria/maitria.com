@@ -11,6 +11,9 @@ body {
 header {
   padding: 15px;
   border-bottom: solid #eb5e00 1px; }
+  @media (max-width: 800px) {
+    header {
+      text-align: center; } }
   header h1 {
     display: inline;
     margin-left: 15px;
@@ -20,13 +23,22 @@ header {
   header img {
     vertical-align: bottom; }
   header nav {
-    color: #666;
-    float: right; }
+    color: #666; }
+@media($viewport-up-to-800px) {
+  header nav {
+    width: 100%;
+    display: block; } }
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
       display: inline; }
-
+      header nav li:first-of-type {
+        margin-left: 0; }
+    header nav ul {
+      padding: 0; }
+@media(min-width: 800px) {
+  header nav {
+    float: right; } }
 #greeting {
   color: #666;
   padding-top: 0.1em;

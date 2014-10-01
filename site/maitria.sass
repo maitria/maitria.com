@@ -23,6 +23,8 @@ body
 header
   padding: 15px
   border-bottom: solid $maitria-orange 1px
+  @media ($viewport-up-to-800px)
+    text-align: center  
   h1
     display: inline
     margin-left: 15px
@@ -33,11 +35,19 @@ header
     vertical-align: bottom
   nav
     color: $medium-gray
-    float: right
+    @media($viewport-up-to-800px)
+      width: 100%
+      display: block
     li
       margin-left: 2em
       text-transform: uppercase 
       display: inline
+      &:first-of-type
+        margin-left: 0
+    ul
+      padding: 0
+    @media(min-width: 800px)
+      float: right
 
 #greeting 
   color: $medium-gray
