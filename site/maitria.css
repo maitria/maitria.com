@@ -40,33 +40,33 @@ body {
   background: #ddd;
   color: #1d1d1d; }
 
-.thing, .column, .single-thing {
+.story-base, .story, .diatribe {
   margin: 2%;
   padding: 0px;
   vertical-align: top;
   display: inline-block; }
-  .thing h3, .column h3, .single-thing h3 {
+  .story-base h3, .story h3, .diatribe h3 {
     text-align: center;
     color: #eb5e00; }
-  .thing p, .column p, .single-thing p {
+  .story-base p, .story p, .diatribe p {
     text-align: justify;
     line-height: 150%; }
-
-.column {
-  max-width: 500px; }
   @media (max-width: 800px) {
-    .column {
+    .story-base, .story, .diatribe {
       font-size: 80%; } }
   @media (max-width: 500px) {
-    .column {
+    .story-base, .story, .diatribe {
       font-size: 100%; } }
+
+.story {
+  max-width: 500px; }
   @media (min-width: 500px) {
-    .column {
+    .story {
       width: 25%; } }
 
-.single-thing {
-  margin-left: 8%;
-  margin-right: 8%;
-  font-size: 100%; }
+@media (min-width: 500px) {
+  .diatribe {
+    margin-left: 8%;
+    margin-right: 8%; } }
 
 /*# sourceMappingURL=maitria.css.map */

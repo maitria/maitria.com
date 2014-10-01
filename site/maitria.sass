@@ -52,7 +52,7 @@ body
   background: $light-gray
   color: $almost-black
 
-.thing  
+.story-base
   margin: 2%
   padding: 0px
   vertical-align: top
@@ -63,19 +63,20 @@ body
   p
     text-align: justify
     line-height: 150%
-
-.column
-  @extend .thing
-  max-width: 500px
   @media ($viewport-up-to-800px)
     font-size: 80%
   @media ($viewport-up-to-500px)
     font-size: 100%
+
+.story
+  @extend .story-base
+  max-width: 500px
   @media ($viewport-bigger-than-500px)
     width: 25% 
  
-.single-thing
-  @extend .thing
-  margin-left: 8%
-  margin-right: 8%
-  font-size: 100%
+.diatribe
+  @extend .story-base
+  @media ($viewport-bigger-than-500px)
+    margin-left: 8%
+    margin-right: 8%
+  
