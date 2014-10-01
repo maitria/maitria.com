@@ -31,7 +31,8 @@ header {
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
-      display: inline; }
+      display: inline;
+      white-space: nowrap; }
       header nav li:first-of-type {
         margin-left: 0; }
     header nav ul {
@@ -44,6 +45,7 @@ header {
   padding-top: 0.1em;
   padding-bottom: 0.2em;
   text-align: center;
+  white-space: nowrap;
   font-size: 18vw;
   font-weight: 200; }
   @media (min-width: 1300px) {
