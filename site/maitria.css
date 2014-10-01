@@ -19,6 +19,13 @@ header {
     font-weight: 200; }
   header img {
     vertical-align: bottom; }
+  header nav {
+    color: #666;
+    float: right; }
+    header nav li {
+      margin-left: 2em;
+      text-transform: uppercase;
+      display: inline; }
 
 #greeting {
   color: #666;
