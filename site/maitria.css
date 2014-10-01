@@ -65,13 +65,15 @@ header {
 .story-base, .story, .diatribe {
   margin: 2%;
   padding: 0px;
+  height: inherit;
+  border-right: 1px solid #ddd;
   vertical-align: top;
   display: inline-block; }
   .story-base h3, .story h3, .diatribe h3 {
     text-align: center;
     color: #eb5e00; }
   .story-base p, .story p, .diatribe p {
-    text-align: justify;
+    text-align: left;
     line-height: 150%; }
   @media (max-width: 800px) {
     .story-base, .story, .diatribe {
