@@ -76,12 +76,19 @@ header
   margin: 2%
   padding: 0px
   height: inherit
-  border-right: 1px solid $light-gray
   vertical-align: top
   display: inline-block
+  h5
+    margin: 0px
+    text-align: left
+  h4
+    margin-bottom: 0px
+    text-align: left
   h3
     text-align: center
     color: $maitria-orange
+  p
+    margin-top: .25em
   p
     text-align: left 
     line-height: 150%
@@ -90,6 +97,11 @@ header
   @media ($viewport-up-to-500px)
     font-size: 100%
 
+.highlights
+  p
+    text-align: justify
+    font-size: 110%
+    color: $medium-gray
 .story
   @extend .story-base
   max-width: 500px
@@ -97,6 +109,7 @@ header
     width: 25% 
  
 .diatribe
+  font-size: 100%
   @extend .story-base
   @media ($viewport-bigger-than-500px)
     margin-left: 8%

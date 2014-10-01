@@ -66,12 +66,19 @@ header {
   margin: 2%;
   padding: 0px;
   height: inherit;
-  border-right: 1px solid #ddd;
   vertical-align: top;
   display: inline-block; }
+  .story-base h5, .story h5, .diatribe h5 {
+    margin: 0px;
+    text-align: left; }
+  .story-base h4, .story h4, .diatribe h4 {
+    margin-bottom: 0px;
+    text-align: left; }
   .story-base h3, .story h3, .diatribe h3 {
     text-align: center;
     color: #eb5e00; }
+  .story-base p, .story p, .diatribe p {
+    margin-top: 0.25em; }
   .story-base p, .story p, .diatribe p {
     text-align: left;
     line-height: 150%; }
@@ -82,15 +89,22 @@ header {
     .story-base, .story, .diatribe {
       font-size: 100%; } }
 
+.highlights p {
+  text-align: justify;
+  font-size: 110%;
+  color: #666; }
+
 .story {
   max-width: 500px; }
   @media (min-width: 500px) {
     .story {
       width: 25%; } }
 
-@media (min-width: 500px) {
-  .diatribe {
-    margin-left: 8%;
-    margin-right: 8%; } }
+.diatribe {
+  font-size: 100%; }
+  @media (min-width: 500px) {
+    .diatribe {
+      margin-left: 8%;
+      margin-right: 8%; } }
 
 /*# sourceMappingURL=maitria.css.map */
