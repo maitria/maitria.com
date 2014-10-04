@@ -2,6 +2,7 @@
 
 //colors
 $maitria-orange: #eb5e00
+$darker-orange: #b84a00 
 $almost-black: #1d1d1d
 $dark-gray: #333
 $medium-gray: #666
@@ -19,6 +20,16 @@ body
   font-family: "Source Sans Pro", "Helvetica", sans-serif
   font-weight: 400
   color: $dark-gray
+
+a
+  &:link, &:visited
+    text-decoration: none
+    font-weight: bold
+    color: #b84a00 
+  &:hover, &:active
+    text-decoration: underline
+    color: $maitria-orange
+  
 
 header
   padding: 15px
@@ -81,6 +92,10 @@ header
   h5
     margin: 0px
     text-align: left
+    &:before
+      content: ">> "
+    &:after
+      content: " <<"
   h4
     margin-bottom: 0px
     text-align: left
@@ -89,6 +104,7 @@ header
     color: $maitria-orange
   p
     margin-top: .25em
+    margin-bottom: .25em
   p
     text-align: left 
     line-height: 150%
@@ -101,7 +117,7 @@ header
   p
     text-align: justify
     font-size: 110%
-    color: $medium-gray
+    color: $dark-gray
 .story
   @extend .story-base
   max-width: 500px

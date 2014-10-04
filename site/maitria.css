@@ -1,12 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 body {
-  border-right: solid #ddd 1px;
+  border-right: solid #dddddd 1px;
   max-width: 1300px;
   min-width: 300px;
   margin: 0px;
   font-family: "Source Sans Pro", "Helvetica", sans-serif;
   font-weight: 400;
-  color: #333; }
+  color: #333333; }
+
+a:link, a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  color: #b84a00; }
+a:hover, a:active {
+  text-decoration: underline;
+  color: #eb5e00; }
 
 header {
   padding: 15px;
@@ -17,17 +25,20 @@ header {
   header h1 {
     display: inline;
     margin-left: 15px;
-    color: #333;
+    color: #333333;
     font-size: 2.5em;
     font-weight: 200; }
   header img {
     vertical-align: bottom; }
   header nav {
-    color: #666; }
-@media($viewport-up-to-800px) {
-  header nav {
-    width: 100%;
-    display: block; } }
+    color: #666666;
+    @media($viewport-up-to-800px) {
+      width: 100%;
+      display: block; }
+
+    @media(min-width: 800px) {
+      float: right; }
+ }
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
@@ -37,11 +48,9 @@ header {
         margin-left: 0; }
     header nav ul {
       padding: 0; }
-@media(min-width: 800px) {
-  header nav {
-    float: right; } }
+
 #greeting {
-  color: #666;
+  color: #666666;
   padding-top: 0.1em;
   padding-bottom: 0.2em;
   text-align: center;
@@ -56,10 +65,10 @@ header {
   width: 100%;
   text-align: center;
   font-weight: 400;
-  color: #333; }
+  color: #333333; }
 
 .dark-segment {
-  background: #ddd;
+  background: #dddddd;
   color: #1d1d1d; }
 
 .story-base, .story, .diatribe {
@@ -71,6 +80,10 @@ header {
   .story-base h5, .story h5, .diatribe h5 {
     margin: 0px;
     text-align: left; }
+    .story-base h5:before, .story h5:before, .diatribe h5:before {
+      content: ">> "; }
+    .story-base h5:after, .story h5:after, .diatribe h5:after {
+      content: " <<"; }
   .story-base h4, .story h4, .diatribe h4 {
     margin-bottom: 0px;
     text-align: left; }
@@ -78,7 +91,8 @@ header {
     text-align: center;
     color: #eb5e00; }
   .story-base p, .story p, .diatribe p {
-    margin-top: 0.25em; }
+    margin-top: 0.25em;
+    margin-bottom: 0.25em; }
   .story-base p, .story p, .diatribe p {
     text-align: left;
     line-height: 150%; }
@@ -92,7 +106,7 @@ header {
 .highlights p {
   text-align: justify;
   font-size: 110%;
-  color: #666; }
+  color: #333333; }
 
 .story {
   max-width: 500px; }
@@ -106,5 +120,3 @@ header {
     .diatribe {
       margin-left: 8%;
       margin-right: 8%; } }
-
-/*# sourceMappingURL=maitria.css.map */
