@@ -21,10 +21,11 @@ header {
   border-bottom: solid #eb5e00 1px; }
   @media (max-width: 800px) {
     header {
+      padding-bottom: 0px;
       text-align: center; } }
   header img {
+    padding-top: 6px;
     width: 150px;
-    vertical-align: bottom;
     display: inline;
     margin-left: 15px; }
   header nav {
