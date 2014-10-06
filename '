@@ -84,8 +84,8 @@ header
 
 .dark-segment
   @extend .segment
-  background: $dark-gray
-  color: $lightest-gray
+  background: $medium-gray
+  color: $almost-black
 
 .story-base
   margin: 2%
@@ -136,16 +136,19 @@ header
     margin-right: 15%
   
 #four-things
+  margin-top: 1em
+  margin-bottom: 1em
+  margin-left: 4em
+  margin-right: 15
+  padding-left: 5%
+  padding-right: 5%
+  background-color: $lightest-gray
+  border-bottom: solid $medium-gray 1px
+  border-left: solid $medium-gray 1px
   .value
     font-weight: bold
     color: $maitria-orange
   .action
     margin-left: 10%
     font-weight: bold
-    color: $light-gray
-  @media ($full-size)
-    margin: 2em 15em 2em 4em
-    padding-left: 5%
-    padding-right: 5%
-  @media ($less-than-full-size)
-    margin: 2em
+    color: $medium-gray

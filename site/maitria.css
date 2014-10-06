@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 body {
-  border-right: solid #dddddd 1px;
+  border-right: solid #bbbbbb 1px;
   max-width: 1300px;
   min-width: 300px;
   margin: 0px;
@@ -71,8 +71,8 @@ header {
   color: #333333; }
 
 .dark-segment {
-  background: #dddddd;
-  color: #1d1d1d; }
+  background: #333333;
+  color: #cccccc; }
 
 .story-base, .story, .diatribe {
   margin: 2%;
@@ -121,5 +121,21 @@ header {
   font-size: 100%; }
   @media (min-width: 500px) {
     .diatribe {
-      margin-left: 8%;
-      margin-right: 8%; } }
+      margin-left: 15%;
+      margin-right: 15%; } }
+
+#four-things .value {
+  font-weight: bold;
+  color: #eb5e00; }
+#four-things .action {
+  margin-left: 10%;
+  font-weight: bold;
+  color: #bbbbbb; }
+@media (min-width: 800px) {
+  #four-things {
+    margin: 2em 15em 2em 4em;
+    padding-left: 5%;
+    padding-right: 5%; } }
+@media (max-width: 800px) {
+  #four-things {
+    margin: 2em; } }
