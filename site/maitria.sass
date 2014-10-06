@@ -8,9 +8,10 @@ $dark-gray: #333
 $medium-gray: #666
 $light-gray: #ddd
 
-$viewport-up-to-800px: "max-width: 800px"
-$viewport-up-to-500px: "max-width: 500px"
-$viewport-bigger-than-500px: "min-width: 500px"
+$less-than-full-size: "max-width: 800px"
+$phone-size: "max-width: 500px"
+$bigger-than-phone: "min-width: 500px"
+$full-size: "min-width: 800px"
 
 body
   border-right: solid $light-gray 1px
@@ -29,24 +30,23 @@ a
   &:hover, &:active
     text-decoration: underline
     color: $maitria-orange
-  
 
 header
   padding: 15px
   border-bottom: solid $maitria-orange 1px
-  @media ($viewport-up-to-800px)
+  @media ($less-than-full-size)
     text-align: center  
-  h1
+  img
+    width: 150px
+    vertical-align: bottom
     display: inline
     margin-left: 15px
-    color: $dark-gray
-    font-size: 2.5em
-    font-weight: 200
-  img
-    vertical-align: bottom
   nav
+    font-size: 90%
     color: $medium-gray
-    @media($viewport-up-to-800px)
+    @media ($full-size)  
+      text-align: right
+    @media($less-than-full-size)
       width: 100%
       display: block
     li
@@ -108,9 +108,9 @@ header
   p
     text-align: left 
     line-height: 150%
-  @media ($viewport-up-to-800px)
+  @media ($less-than-full-size)
     font-size: 80%
-  @media ($viewport-up-to-500px)
+  @media ($phone-size)
     font-size: 100%
 
 .highlights
@@ -121,13 +121,13 @@ header
 .story
   @extend .story-base
   max-width: 500px
-  @media ($viewport-bigger-than-500px)
+  @media ($bigger-than-phone)
     width: 25% 
  
 .diatribe
   font-size: 100%
   @extend .story-base
-  @media ($viewport-bigger-than-500px)
+  @media ($bigger-than-phone)
     margin-left: 8%
     margin-right: 8%
   
