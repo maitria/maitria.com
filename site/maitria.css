@@ -23,6 +23,9 @@ header {
     header {
       padding-bottom: 0px;
       text-align: center; } }
+  header h1 {
+    display: inline;
+    padding: 0px; }
   header img {
     padding-top: 6px;
     width: 150px;
