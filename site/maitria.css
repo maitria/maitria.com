@@ -33,13 +33,11 @@ header {
     @media($less-than-full-size) {
       width: 100%;
       display: block; }
-
-    @media(min-width: 800px) {
-      float: right; }
  }
     @media (min-width: 800px) {
       header nav {
-        text-align: right; } }
+        text-align: right;
+        float: right; } }
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
