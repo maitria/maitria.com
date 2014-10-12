@@ -123,20 +123,18 @@ header {
       margin-left: 15%;
       margin-right: 15%; } }
 
-#four-things .value {
-  font-weight: bold;
-  color: #eb5e00; }
-#four-things .action {
-  margin-left: 10%;
-  font-weight: bold;
-  color: #bbb; }
-@media (min-width: 800px) {
-  #four-things {
-    margin: 2em 10% 2em 4em;
-    padding-left: 5%;
-    padding-right: 5%; } }
-@media (max-width: 800px) {
-  #four-things {
-    margin: 2em; } }
+#four-things {
+  margin: 1em; }
+  #four-things .value {
+    font-weight: bold;
+    color: #eb5e00; }
+  #four-things .action {
+    margin-left: 10%;
+    font-weight: bold;
+    color: #bbb; }
+  @media (min-width: 800px) {
+    #four-things {
+      padding-left: 5%;
+      padding-right: 5%; } }
 
 /*# sourceMappingURL=maitria.css.map */
