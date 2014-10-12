@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 body {
-  border-right: solid #bbbbbb 1px;
+  border-right: solid #bbb 1px;
   max-width: 1300px;
   min-width: 300px;
   margin: 0px;
   font-family: "Source Sans Pro", "Helvetica", sans-serif;
   font-weight: 400;
-  color: #333333; }
+  color: #333; }
 
 a:link, a:visited {
   text-decoration: none;
@@ -33,15 +33,15 @@ header {
     margin-left: 15px; }
   header nav {
     font-size: 90%;
-    color: #666666;
-    @media($less-than-full-size) {
-      width: 100%;
-      display: block; }
- }
+    color: #666; }
     @media (min-width: 800px) {
       header nav {
         text-align: right;
         float: right; } }
+@media($less-than-full-size) {
+  header nav {
+    width: 100%;
+    display: block; } }
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
@@ -53,7 +53,7 @@ header {
       padding: 0; }
 
 #greeting {
-  color: #666666;
+  color: #666;
   padding-top: 0.1em;
   padding-bottom: 0.2em;
   text-align: center;
@@ -68,11 +68,11 @@ header {
   width: 100%;
   text-align: center;
   font-weight: 400;
-  color: #333333; }
+  color: #333; }
 
 .dark-segment {
-  background: #333333;
-  color: #cccccc; }
+  background: #333;
+  color: #ccc; }
 
 .story-base, .story, .diatribe {
   margin: 2%;
@@ -95,8 +95,7 @@ header {
     color: #eb5e00; }
   .story-base p, .story p, .diatribe p {
     margin-top: 0.25em;
-    margin-bottom: 0.25em; }
-  .story-base p, .story p, .diatribe p {
+    margin-bottom: 0.25em;
     text-align: left;
     line-height: 150%; }
   @media (max-width: 800px) {
@@ -109,7 +108,7 @@ header {
 .highlights p {
   text-align: justify;
   font-size: 110%;
-  color: #333333; }
+  color: #333; }
 
 .story {
   max-width: 500px; }
@@ -130,12 +129,14 @@ header {
 #four-things .action {
   margin-left: 10%;
   font-weight: bold;
-  color: #bbbbbb; }
+  color: #bbb; }
 @media (min-width: 800px) {
   #four-things {
-    margin: 2em 15em 2em 4em;
+    margin: 2em 10% 2em 4em;
     padding-left: 5%;
     padding-right: 5%; } }
 @media (max-width: 800px) {
   #four-things {
     margin: 2em; } }
+
+/*# sourceMappingURL=maitria.css.map */
