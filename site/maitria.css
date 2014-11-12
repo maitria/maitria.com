@@ -122,6 +122,8 @@ header {
     .single-story {
       margin-left: 15%;
       margin-right: 15%; } }
+  .single-story h2 {
+    text-align: center; }
 
 #four-things {
   margin: 1em; }
