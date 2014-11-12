@@ -68,7 +68,8 @@ header {
   width: 100%;
   text-align: center;
   font-weight: 400;
-  color: #333; }
+  color: #333;
+  padding-bottom: 2em; }
 
 .dark-segment {
   background: #333;
@@ -80,6 +81,11 @@ header {
   .dark-segment a:hover, .dark-segment a:active {
     text-decoration: underline;
     color: #eb5e00; }
+
+.highlights p {
+  text-align: justify;
+  font-size: 110%;
+  color: #333; }
 
 .story-base, .story, .full-width-story {
   margin: 2%;
@@ -106,11 +112,6 @@ header {
       font-size: 100%; } }
   .story-base li, .story li, .full-width-story li {
     text-align: left; }
-
-.highlights p {
-  text-align: justify;
-  font-size: 110%;
-  color: #333; }
 
 .story {
   max-width: 500px; }
