@@ -27,9 +27,16 @@ fi
 
 echo 'pushing to master'
 git push origin master:master
+if [[ $? -ne 0 ]]
+then
+  echo "=========================================="
+  echo "   FAILED TO PUSH                         "
+  echo "=========================================="
+  exit 1
+fi
+
 echo 'pushed'
 echo
-
 echo 'deploying to maitria webserver'
 rsync -r --progress --delete ./site/ root@104.131.105.47:/srv/maitria.com 
 echo 'deployed'
