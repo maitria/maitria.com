@@ -74,35 +74,35 @@ header {
   background: #333;
   color: #ccc; }
 
-.story-base, .story, .diatribe {
+.story-base, .story, .single-story {
   margin: 2%;
   padding: 0px;
   height: inherit;
   vertical-align: top;
   display: inline-block; }
-  .story-base h5, .story h5, .diatribe h5 {
+  .story-base h5, .story h5, .single-story h5 {
     margin: 0px;
     text-align: left; }
-    .story-base h5:before, .story h5:before, .diatribe h5:before {
+    .story-base h5:before, .story h5:before, .single-story h5:before {
       content: ">> "; }
-    .story-base h5:after, .story h5:after, .diatribe h5:after {
+    .story-base h5:after, .story h5:after, .single-story h5:after {
       content: " <<"; }
-  .story-base h4, .story h4, .diatribe h4 {
+  .story-base h4, .story h4, .single-story h4 {
     margin-bottom: 0px;
     text-align: left; }
-  .story-base h3, .story h3, .diatribe h3 {
+  .story-base h3, .story h3, .single-story h3 {
     text-align: center;
     color: #eb5e00; }
-  .story-base p, .story p, .diatribe p {
+  .story-base p, .story p, .single-story p {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     text-align: left;
     line-height: 150%; }
   @media (max-width: 800px) {
-    .story-base, .story, .diatribe {
+    .story-base, .story, .single-story {
       font-size: 80%; } }
   @media (max-width: 500px) {
-    .story-base, .story, .diatribe {
+    .story-base, .story, .single-story {
       font-size: 100%; } }
 
 .highlights p {
@@ -116,10 +116,10 @@ header {
     .story {
       width: 25%; } }
 
-.diatribe {
+.single-story {
   font-size: 100%; }
   @media (min-width: 500px) {
-    .diatribe {
+    .single-story {
       margin-left: 15%;
       margin-right: 15%; } }
 
