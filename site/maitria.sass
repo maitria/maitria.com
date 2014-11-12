@@ -116,19 +116,22 @@ header
     font-size: 80%
   @media ($phone-size)
     font-size: 100%
+  li
+    text-align: left
 
 .highlights
   p
     text-align: justify
     font-size: 110%
     color: $dark-gray
+
 .story
   @extend .story-base
   max-width: 500px
   @media ($bigger-than-phone)
     width: 25% 
  
-.single-story
+.full-width-story
   font-size: 100%
   @extend .story-base
   @media ($bigger-than-phone)
@@ -136,7 +139,7 @@ header
     margin-right: 15%
   h2
     text-align: center
-  
+
 #four-things
   margin: 1em
   .value
