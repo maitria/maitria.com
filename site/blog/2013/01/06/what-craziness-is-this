@@ -6,7 +6,7 @@
     <title>Maitria</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="http://maitria.innernvc.org/maitria.css">
+    <link rel="stylesheet" type="text/css" href="/maitria.css">
     <link rel="icon" href="assets/favicon.png">
   </head>
 
