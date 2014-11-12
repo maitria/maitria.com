@@ -30,7 +30,7 @@ git push origin master:master
 if [[ $? -ne 0 ]]
 then
   echo "=========================================="
-  echo "   FAILED TO PUSH                         "
+  echo "   FAILED TO PUSH   --  ABORTING PUSH     "
   echo "=========================================="
   exit 1
 fi
