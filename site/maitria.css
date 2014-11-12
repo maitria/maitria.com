@@ -73,8 +73,6 @@ header {
 .dark-segment {
   background: #333;
   color: #ccc; }
-  .dark-segment h2 {
-    color: #eee; }
 
 .story-base, .story, .single-story {
   margin: 2%;
