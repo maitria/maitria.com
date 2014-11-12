@@ -28,7 +28,7 @@ a
   &:link, &:visited
     text-decoration: none
     font-weight: bold
-    color: #b84a00 
+    color: $maitria-orange 
   &:hover, &:active
     text-decoration: underline
     color: $maitria-orange
@@ -87,6 +87,14 @@ header
   @extend .segment
   background: $dark-gray
   color: $lightest-gray
+  a
+    &:link, &:visited
+      text-decoration: none
+      font-weight: bold
+      color: $maitria-orange 
+    &:hover, &:active
+      text-decoration: underline
+      color: $maitria-orange
 
 .story-base
   margin: 2%
@@ -94,16 +102,6 @@ header
   height: inherit
   vertical-align: top
   display: inline-block
-  h5
-    margin: 0px
-    text-align: left
-    &:before
-      content: ">> "
-    &:after
-      content: " <<"
-  h4
-    margin-bottom: 0px
-    text-align: left
   h3
     text-align: center
     color: $maitria-orange
