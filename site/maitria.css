@@ -83,6 +83,7 @@ header {
     color: #eb5e00; }
 
 .highlights h3 {
+  height: 2.5em;
   padding-bottom: 0.5em;
   border-bottom: solid #eb5e00 1px; }
 .highlights p {
