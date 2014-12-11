@@ -64,10 +64,15 @@ header {
     #greeting {
       font-size: 234px; } }
 
-.note {
+.note-indicator {
   color: #eb5e00;
   font-size: 150%;
   font-weight: bold; }
+
+.note {
+  border-top: solid thin #bbb;
+  padding-top: 1em;
+  color: #333; }
 
 .segment, .dark-segment {
   width: 100%;
