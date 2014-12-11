@@ -64,6 +64,11 @@ header {
     #greeting {
       font-size: 234px; } }
 
+.note {
+  color: #eb5e00;
+  font-size: 150%;
+  font-weight: bold; }
+
 .segment, .dark-segment {
   width: 100%;
   text-align: center;
