@@ -122,7 +122,8 @@ header {
     .story-base, .story, .full-width-story {
       font-size: 100%; } }
   .story-base li, .story li, .full-width-story li {
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 0.5em; }
 
 .story {
   max-width: 500px; }
