@@ -98,7 +98,9 @@ header {
   display: inline-block; }
   .story-base h4, .story h4, .full-width-story h4 {
     text-align: left;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #666; }
   .story-base h3, .story h3, .full-width-story h3 {
     text-align: center;
     color: #eb5e00; }
