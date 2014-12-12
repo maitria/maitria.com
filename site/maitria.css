@@ -81,8 +81,13 @@ header {
   font-weight: 400;
   color: #333;
   padding-bottom: 2em; }
+  .segment h2, .dark-segment h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em; }
 
 .dark-segment {
+  height: 100%;
   background: #333;
   color: #ccc; }
   .dark-segment a:link, .dark-segment a:visited {
@@ -143,8 +148,6 @@ header {
     .regular-story {
       margin-left: 15%;
       margin-right: 15%; } }
-  .regular-story h2 {
-    text-align: center; }
 
 #four-things {
   margin: 1em; }
