@@ -102,48 +102,48 @@ header {
   font-size: 110%;
   color: #333; }
 
-.story-base, .story, .full-width-story {
+.story-base, .highlight-story, .regular-story {
   margin: 2%;
   padding: 0px;
   height: inherit;
   vertical-align: top;
   display: inline-block; }
-  .story-base h4, .story h4, .full-width-story h4 {
+  .story-base h4, .highlight-story h4, .regular-story h4 {
     text-align: left;
     margin-bottom: 0;
     font-weight: bold;
     color: #666; }
-  .story-base h3, .story h3, .full-width-story h3 {
+  .story-base h3, .highlight-story h3, .regular-story h3 {
     text-align: center;
     color: #eb5e00; }
-  .story-base p, .story p, .full-width-story p {
+  .story-base p, .highlight-story p, .regular-story p {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     text-align: left;
     line-height: 150%; }
   @media (max-width: 800px) {
-    .story-base, .story, .full-width-story {
+    .story-base, .highlight-story, .regular-story {
       font-size: 80%; } }
   @media (max-width: 500px) {
-    .story-base, .story, .full-width-story {
+    .story-base, .highlight-story, .regular-story {
       font-size: 100%; } }
-  .story-base li, .story li, .full-width-story li {
+  .story-base li, .highlight-story li, .regular-story li {
     text-align: left;
     margin-bottom: 0.5em; }
 
-.story {
+.highlight-story {
   max-width: 500px; }
   @media (min-width: 500px) {
-    .story {
+    .highlight-story {
       width: 25%; } }
 
-.full-width-story {
+.regular-story {
   font-size: 100%; }
   @media (min-width: 500px) {
-    .full-width-story {
+    .regular-story {
       margin-left: 15%;
       margin-right: 15%; } }
-  .full-width-story h2 {
+  .regular-story h2 {
     text-align: center; }
 
 #four-things {
