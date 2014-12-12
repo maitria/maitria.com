@@ -52,6 +52,11 @@ header {
     header nav ul {
       padding: 0; }
 
+h2 {
+  text-align: center;
+  margin: 0;
+  padding-top: 1em; }
+
 #greeting {
   color: #666;
   padding-top: 0.1em;
@@ -81,10 +86,6 @@ header {
   font-weight: 400;
   color: #333;
   padding-bottom: 2em; }
-  .segment h2, .dark-segment h2 {
-    text-align: center;
-    margin-top: 0;
-    padding-top: 1em; }
 
 .dark-segment {
   height: 100%;
