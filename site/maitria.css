@@ -63,6 +63,7 @@ h2 {
   padding-bottom: 0.2em;
   text-align: center;
   white-space: nowrap;
+  font-size: 180;
   font-size: 18vw;
   font-weight: 200; }
   @media (min-width: 1300px) {
