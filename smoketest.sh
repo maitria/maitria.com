@@ -1,8 +1,13 @@
 #!/bin/sh
 
-echo "By the way, I'm about to kill any python stuff running."
-killall python
+page="/$1"
+browser="firefox"
 
+echo "By the way, I'm about to kill any python stuff running."
+echo "And I'm also going kill Firefox."
+echo "You'll wish you'd read this someday."
+killall python
+killall $browser
 echo "==========================================="
 echo
 echo
@@ -13,11 +18,8 @@ echo
 cd site
 python -m SimpleHTTPServer &
 
-sleep .1
-
-page="/$1"
 echo "Opening page in browser..."
-open -a firefox http://localhost:8000$page
+open -a $browser http://localhost:8000$page
 echo
 
 git status
