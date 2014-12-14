@@ -14,6 +14,7 @@ $less-than-full-size: "max-width: 800px"
 $phone-size: "max-width: 500px"
 $bigger-than-phone: "min-width: 500px"
 $full-size: "min-width: 800px"
+$oversize: "min-width: 1300px"
 
 body
   border: solid $light-gray 1px
@@ -79,7 +80,7 @@ h2
   font-size: 600%
   font-size: 18vw 
   font-weight: 200  
-  @media (min-width: 1300px) 
+  @media ($oversize) 
     font-size: 234px
 
 .note-indicator
