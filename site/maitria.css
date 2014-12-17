@@ -60,15 +60,15 @@ h2 {
 #greeting {
   color: #666;
   padding-top: 0.1em;
-  padding-bottom: 0.2em;
+  padding-bottom: 0.1em;
   text-align: center;
   white-space: nowrap;
   font-size: 600%;
   font-size: 18vw;
   font-weight: 200; }
-  @media (min-width: 1300px) {
+  @media (min-width: 800px) {
     #greeting {
-      font-size: 234px; } }
+      font-size: 8em; } }
 
 .note-indicator {
   color: #eb5e00;
