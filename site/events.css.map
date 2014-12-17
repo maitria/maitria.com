@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,QAAQ;EACN,OAAO,EAAE,IAAI",
+"mappings": "AAAA,QAAQ;EACN,OAAO,EAAE,IAAI;;AAEf,SAAS;EACP,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,MAAM",
 "sources": ["events.sass"],
 "names": [],
 "file": "events.css"

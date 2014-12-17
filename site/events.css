@@ -1,4 +1,8 @@
 #preview {
   display: none; }
 
+#greeting {
+  font-size: 3em;
+  white-space: normal; }
+
 /*# sourceMappingURL=events.css.map */
