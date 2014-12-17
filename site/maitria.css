@@ -38,10 +38,10 @@ header {
       header nav {
         text-align: right;
         float: right; } }
-@media($less-than-full-size) {
-  header nav {
-    width: 100%;
-    display: block; } }
+    @media (max-width: 800px) {
+      header nav {
+        width: 100%;
+        display: block; } }
     header nav li {
       margin-left: 2em;
       text-transform: uppercase;
