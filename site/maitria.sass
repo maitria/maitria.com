@@ -151,13 +151,19 @@ h2
   li
     text-align: left
     margin-bottom: .5em
+    list-style-type: none
 
 .highlight-story
   @extend .story-base
   max-width: 500px
   @media ($bigger-than-phone)
     width: 25% 
- 
+  ul
+    padding: 0
+  li
+    &:first-of-type
+    margin-left: 1em
+
 .regular-story
   font-size: 100%
   @extend .story-base

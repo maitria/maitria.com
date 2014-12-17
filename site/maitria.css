@@ -136,13 +136,18 @@ h2 {
       font-size: 100%; } }
   .story-base li, .highlight-story li, .regular-story li {
     text-align: left;
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.5em;
+    list-style-type: none; }
 
 .highlight-story {
   max-width: 500px; }
   @media (min-width: 500px) {
     .highlight-story {
       width: 25%; } }
+  .highlight-story ul {
+    padding: 0; }
+  .highlight-story li {
+    margin-left: 1em; }
 
 .regular-story {
   font-size: 100%; }
