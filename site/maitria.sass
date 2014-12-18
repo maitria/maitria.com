@@ -150,8 +150,9 @@ h2
     font-size: 100%
   li
     text-align: left
-    margin-bottom: .5em
-    list-style-type: none
+    margin: 0 0 .5em 1em
+    list-style-position: outside
+    list-style-type: square
 
 .highlight-story
   @extend .story-base
@@ -160,9 +161,6 @@ h2
     width: 25% 
   ul
     padding: 0
-  li
-    &:first-of-type
-    margin-left: 1em
 
 .regular-story
   font-size: 100%
