@@ -5,4 +5,25 @@
   font-size: 3em;
   white-space: normal; }
 
+#signup {
+  padding-top: 2em; }
+
+.arrow {
+  color: #eb5e00;
+  font-size: 3em;
+  position: relative;
+  top: 20px; }
+
+.buy_button {
+  width: 25em;
+  margin: 1em auto 1em auto;
+  border-bottom: thin solid #444; }
+  .buy_button button {
+    font-size: 85%;
+    height: 2.5em;
+    width: 7em;
+    border-radius: 0.5em;
+    background: #eb5e00;
+    color: white; }
+
 /*# sourceMappingURL=events.css.map */
