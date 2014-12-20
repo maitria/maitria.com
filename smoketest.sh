@@ -8,12 +8,17 @@ echo "And I'm also going kill Firefox."
 echo "You'll wish you'd read this someday."
 killall python
 killall $browser
+
 echo "==========================================="
 echo
 echo
 echo "Compiling .sass to .css"
 sass --update site:site
 echo
+
+#destroy previously generated site
+rm site/index.html
+lein run
 
 cd site
 python -m SimpleHTTPServer &
