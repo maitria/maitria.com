@@ -1,7 +1,7 @@
 (ns make-maitria.core
+  (:require [clostache.parser :refer :all])
   (:gen-class))
 
 (defn -main
-  "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (spit "site/index.html" (render-resource "index.html" {})))
