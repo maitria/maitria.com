@@ -1,5 +1,17 @@
+.DS_Store
+
 *.swo
 *.swp
 *.orig
-.DS_Store
 .sass-cache/
+
+#leiningen's stuff
+/target
+/classes
+/checkouts
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
