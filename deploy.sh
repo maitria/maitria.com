@@ -8,6 +8,21 @@ mag=$'\e[1;35m'
 cyn=$'\e[1;36m'
 end=$'\e[0m'
 
+./generate.sh
+echo "===================================================="
+echo 'Check out your site! Happy? Continue deploying? y/n'
+echo "===================================================="
+read answer
+if ! [[ ".y.yes.Y.Yes.YES." =~ ".${answer}." ]]
+then
+  printf $red
+  echo "=========================================="
+  echo " FAILED: YOU DECIDED NOT TO DEPLOY :)     "
+  echo "=========================================="
+  printf $end
+  exit 1
+fi
+
 echo "==========================================="
 echo
 echo
