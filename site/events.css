@@ -14,6 +14,8 @@
   font-size: 3em;
   position: relative;
   top: 20px; }
+  .arrow a:hover, .arrow a:active {
+    text-decoration: none; }
 
 .purchase_card {
   width: 300px;
