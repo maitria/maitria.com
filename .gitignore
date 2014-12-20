@@ -5,6 +5,8 @@
 *.orig
 .sass-cache/
 
+site/index.html
+
 #leiningen's stuff
 /target
 /classes
