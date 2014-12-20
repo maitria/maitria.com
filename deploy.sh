@@ -9,9 +9,11 @@ cyn=$'\e[1;36m'
 end=$'\e[0m'
 
 ./generate.sh
+printf $blu
 echo "===================================================="
 echo 'Check out your site! Happy? Continue deploying? y/n'
 echo "===================================================="
+printf $blu
 read answer
 if ! [[ ".y.yes.Y.Yes.YES." =~ ".${answer}." ]]
 then
