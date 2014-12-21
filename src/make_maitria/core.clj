@@ -4,4 +4,5 @@
 
 (defn -main
   [& args]
-  (spit "site/index.html" (render-resource "index.html.mustache" {})))
+  (spit "site/index.html" (render-resource "index.html.mustache" {}))
+  (spit "site/events/intro-to-meditation.html" (render-resource "intro-to-meditation.html.mustache")))
