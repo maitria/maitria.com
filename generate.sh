@@ -18,6 +18,8 @@ echo
 
 #destroy previously generated site
 rm site/index.html
+rm site/events/intro-to-meditation.html
+
 lein run
 
 cd site
