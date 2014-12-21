@@ -17,7 +17,8 @@
 
 (defn generate
   [page]
-  (spit (destination-file page) (render-resource (source-file page) {} {:header (slurp (io/resource "partials/header.mustache"))})))
+  (let [partials {:header (slurp (io/resource "partials/header.mustache"))}]
+    (spit (destination-file page) (render-resource (source-file page) {} partials))))
 
 (defn -main
   [& args]
