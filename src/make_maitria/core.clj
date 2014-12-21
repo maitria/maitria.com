@@ -1,5 +1,7 @@
 (ns make-maitria.core
-  (:require [clostache.parser :refer :all])
+  (:require [clostache.parser :refer :all]
+            [clojure.java.io :as io])
+  
   (:gen-class))
 
 (def pages ["index.html"
@@ -15,7 +17,7 @@
 
 (defn generate
   [page]
-  (spit (destination-file page) (render-resource (source-file page) {})))
+  (spit (destination-file page) (render-resource (source-file page) {} {:header (slurp (io/resource "partials/header.mustache"))})))
 
 (defn -main
   [& args]
