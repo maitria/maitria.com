@@ -3,10 +3,10 @@
   (:gen-class))
 
 (defn source-file
-  [destination]
-  (str destination ".mustache"))
+  [pagename]
+  (str pagename ".mustache"))
 
 (defn -main
   [& args]
   (spit "site/index.html" (render-resource (source-file "index.html") {}))
-  (spit "site/events/intro-to-meditation.html" (render-resource "events/intro-to-meditation.html.mustache")))
+  (spit "site/events/intro-to-meditation.html" (render-resource (source-file "events/intro-to-meditation.html"))))
