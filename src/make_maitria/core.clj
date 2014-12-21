@@ -2,19 +2,22 @@
   (:require [clostache.parser :refer :all])
   (:gen-class))
 
+(def pages ["index.html"
+            "events/intro-to-meditation.html"])
+
 (defn source-file
-  [page-path]
-  (str page-path ".mustache"))
+  [page]
+  (str page ".mustache"))
 
 (defn destination-file
-  [page-path]
-  (str "site/" page-path))
+  [page]
+  (str "site/" page))
 
 (defn generate
-  [page-path]
-  (spit (destination-file page-path) (render-resource (source-file page-path) {})))
+  [page]
+  (spit (destination-file page) (render-resource (source-file page) {})))
 
 (defn -main
   [& args]
-  (generate "index.html")
-  (generate "events/intro-to-meditation.html"))
+  (doseq [page pages]
+    (generate page)))
