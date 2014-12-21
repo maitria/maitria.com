@@ -6,7 +6,11 @@
   [pagename]
   (str pagename ".mustache"))
 
+(defn destination-file
+  [pagename]
+  (str "site/" pagename))
+
 (defn -main
   [& args]
-  (spit "site/index.html" (render-resource (source-file "index.html") {}))
-  (spit "site/events/intro-to-meditation.html" (render-resource (source-file "events/intro-to-meditation.html"))))
+  (spit (destination-file "index.html") (render-resource (source-file "index.html") {}))
+  (spit (destination-file "events/intro-to-meditation.html") (render-resource (source-file "events/intro-to-meditation.html"))))
