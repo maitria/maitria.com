@@ -17,4 +17,4 @@
 (defn -main
   [& args]
   (generate "index.html")
-  (spit (destination-file "events/intro-to-meditation.html") (render-resource (source-file "events/intro-to-meditation.html"))))
+  (generate "events/intro-to-meditation.html"))
