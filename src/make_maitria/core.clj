@@ -3,14 +3,18 @@
   (:gen-class))
 
 (defn source-file
-  [pagename]
-  (str pagename ".mustache"))
+  [page-path]
+  (str page-path ".mustache"))
 
 (defn destination-file
-  [pagename]
-  (str "site/" pagename))
+  [page-path]
+  (str "site/" page-path))
+
+(defn generate
+  [page-path]
+  (spit (destination-file page-path) (render-resource (source-file page-path) {})))
 
 (defn -main
   [& args]
-  (spit (destination-file "index.html") (render-resource (source-file "index.html") {}))
+  (generate "index.html")
   (spit (destination-file "events/intro-to-meditation.html") (render-resource (source-file "events/intro-to-meditation.html"))))
