@@ -2,7 +2,7 @@
 
 ## What is it?
 
-It's the website for maitria.com (go see). It started just html & css. Duplication meant it was time to add some Clojure fun. In the future it will probably have a blog engine, and who knows what else. And it's definitely a place for learning.
+It's the website for [maitria.com](maitria.com). It started just html & css. Duplication meant it was time to add some Clojure fun. In the future it will probably have a blog engine, and who knows what else. And it's definitely a place for learning.
 
 ## Why is our website open source? 
 
