@@ -24,17 +24,18 @@
   border-top: thin solid #555; }
   .purchase_card p {
     clear: both; }
+  .purchase_card form {
+    color: #eb5e00;
+    text-align: left; }
   .purchase_card button {
     margin-bottom: 1em;
+    margin-top: 1em;
     float: right;
     font-size: 85%;
     height: 2.5em;
     width: 7em;
     border-radius: 0.5em;
     background: #eb5e00;
-    color: white; }
-  .purchase_card option {
-    background: #555;
     color: white; }
   .purchase_card select {
     background: #555;
