@@ -6,7 +6,7 @@
 - sass
 - some bash scripts (see below)
 
-As of now, December 2014, that's is. I imagine it will change soon. :D
+Update: 19 January 2015 - That's no longer true. But it's gonna take me a minute to rewrite this. Dang. Write to us if you need to know more. 
 
 ##attention newbies and beginners!
 
