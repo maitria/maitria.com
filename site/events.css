@@ -33,5 +33,17 @@
     border-radius: 0.5em;
     background: #eb5e00;
     color: white; }
+  .purchase_card option {
+    background: #555;
+    color: white; }
+  .purchase_card select {
+    background: #555;
+    color: white;
+    border: thin solid #333;
+    margin-bottom: 1em;
+    margin-left: 1em; }
+  .purchase_card input {
+    margin-left: none;
+    padding-left: none; }
 
 /*# sourceMappingURL=events.css.map */
