@@ -45,7 +45,7 @@ There's still some duplication to extract, especially in SASS (CSS).
 There are two bash scripts. Well, three.
 - `generate.sh` generates the .html from .html.mustache and compiles SASS to CSS. It does a few other things, too. You'll want to open it up and make some adjustments for your setup if you use it.
 - `deploy.sh` is not something you'll need. For the maintainer (that's me &mdash; Alex), it's for making sure the code that's on github matches the code being served up when somebody goes to maitria.com. It pushes and uploads to the server.
-- `mdpreview.sh` hardly counts. It's a tiny script I created to make it easy to preview this README before pushing. You'll probably have to edit it.i
+- `mdpreview.sh` hardly counts. It's a tiny script I created to make it easy to preview this README before pushing. You'll probably have to edit it.
 
 ###contributing
 Contributions are welcome, and we are friendly. 
