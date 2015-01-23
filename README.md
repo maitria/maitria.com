@@ -1,4 +1,4 @@
-#maitira.com
+#maitria.com
 
 ## What is it?
 It's the website for [maitria.com](http://maitria.com/). It started just HTML & CSS. Duplication meant it was time to pull in SASS, and now here comes Clojure. It's definitely a place for learning.
