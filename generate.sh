@@ -1,4 +1,5 @@
 #!/bin/sh
+. colors.bash
 
 page="/$1"
 browser="firefox"
@@ -9,16 +10,17 @@ echo "You'll wish you'd read this someday."
 killall python
 killall $browser
 
+#destroy previously generated site
+rm site/index.html
+rm site/events/intro-to-meditation.html
+rm site/*.css
+
 echo "==========================================="
 echo
 echo
 echo "Compiling .sass to .css"
 sass --update site:site
 echo
-
-#destroy previously generated site
-rm site/index.html
-rm site/events/intro-to-meditation.html
 
 lein run
 
