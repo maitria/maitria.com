@@ -1,7 +1,16 @@
 #!/bin/bash
 . colors.bash
 
-./generate.sh
+browser="firefox"
+killall python
+killall $browser
+(cd site; python -m SimpleHTTPServer &)
+sleep 1
+
+echo "Opening page in browser..."
+open -a $browser http://localhost:8000
+echo
+
 printf $blu
 echo "===================================================="
 echo 'Check out your site! Happy? Continue deploying? y/n'

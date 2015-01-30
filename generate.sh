@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 . colors.bash
 
 page="/$1"
@@ -24,8 +24,7 @@ echo
 
 lein run
 
-cd site
-python -m SimpleHTTPServer &
+(cd site; python -m SimpleHTTPServer &)
 
 echo "Opening page in browser..."
 open -a $browser http://localhost:8000$page
