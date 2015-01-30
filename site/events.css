@@ -9,9 +9,9 @@
 #signup {
   padding-top: 2em; }
 
-.tweet_me {
-  text-align: right; }
-  .tweet_me a {
+.segment .tweet_me {
+  padding-left: 1em; }
+  .segment .tweet_me a {
     color: #4099ff;
     text-transform: uppercase;
     font-size: 80%;
