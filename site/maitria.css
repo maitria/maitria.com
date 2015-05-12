@@ -111,32 +111,32 @@ h2 {
   font-size: 110%;
   color: #333; }
 
-.story-base, .highlight-story, .regular-story {
+.story-base, .highlight-story, .highlight-half-story, .regular-story {
   margin: 2%;
   padding: 0px;
   height: inherit;
   vertical-align: top;
   display: inline-block; }
-  .story-base h4, .highlight-story h4, .regular-story h4 {
+  .story-base h4, .highlight-story h4, .highlight-half-story h4, .regular-story h4 {
     text-align: left;
     margin-bottom: 0;
     font-weight: bold;
     color: #666; }
-  .story-base h3, .highlight-story h3, .regular-story h3 {
+  .story-base h3, .highlight-story h3, .highlight-half-story h3, .regular-story h3 {
     text-align: center;
     color: #eb5e00; }
-  .story-base p, .highlight-story p, .regular-story p {
+  .story-base p, .highlight-story p, .highlight-half-story p, .regular-story p {
     margin-top: 0.25em;
     margin-bottom: 0.25em;
     text-align: left;
     line-height: 150%; }
   @media (max-width: 800px) {
-    .story-base, .highlight-story, .regular-story {
+    .story-base, .highlight-story, .highlight-half-story, .regular-story {
       font-size: 80%; } }
   @media (max-width: 500px) {
-    .story-base, .highlight-story, .regular-story {
+    .story-base, .highlight-story, .highlight-half-story, .regular-story {
       font-size: 100%; } }
-  .story-base li, .highlight-story li, .regular-story li {
+  .story-base li, .highlight-story li, .highlight-half-story li, .regular-story li {
     text-align: left;
     margin: 0 0 0.5em 1em;
     list-style-position: outside;
@@ -148,6 +148,14 @@ h2 {
     .highlight-story {
       width: 25%; } }
   .highlight-story ul {
+    padding: 0; }
+
+.highlight-half-story {
+  max-width: 700px; }
+  @media (min-width: 500px) {
+    .highlight-half-story {
+      width: 45%; } }
+  .highlight-half-story ul {
     padding: 0; }
 
 .regular-story {
