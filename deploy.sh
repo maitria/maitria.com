@@ -7,26 +7,6 @@ killall $browser
 (cd site; python -m SimpleHTTPServer &)
 sleep 1
 
-echo "Opening page in browser..."
-open -a $browser http://localhost:8000
-echo
-
-printf $blu
-echo "===================================================="
-echo 'Check out your site! Happy? Continue deploying? y/n'
-echo "===================================================="
-printf $end
-read answer
-if ! [[ ".y.yes.Y.Yes.YES." =~ ".${answer}." ]]
-then
-  printf $red
-  echo "=========================================="
-  echo " FAILED: YOU DECIDED NOT TO DEPLOY :)     "
-  echo "=========================================="
-  printf $end
-  exit 1
-fi
-
 echo "==========================================="
 echo
 echo
