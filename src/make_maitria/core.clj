@@ -16,7 +16,8 @@
 
 (defn generate
   [page]
-  (let [partials {:header (slurp (io/resource "partials/header.mustache"))}
+  (let [partials {:header (slurp (io/resource "partials/header.mustache"))
+                  :events (slurp (io/resource "partials/events.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
