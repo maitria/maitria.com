@@ -18,7 +18,8 @@
   [page]
   (let [partials {:header (slurp (io/resource "partials/header.mustache"))
                   :events (slurp (io/resource "partials/events.mustache"))
-                  :conference (slurp (io/resource "partials/conference.mustache"))}
+                  :conference (slurp (io/resource "partials/conference.mustache"))
+                  :about (slurp (io/resource "partials/about.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
