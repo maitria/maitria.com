@@ -20,7 +20,9 @@
                   :events (slurp (io/resource "partials/events.mustache"))
                   :conference (slurp (io/resource "partials/conference.mustache"))
                   :about (slurp (io/resource "partials/about.mustache"))
-                  :contact (slurp (io/resource "partials/contact.mustache"))}
+                  :contact (slurp (io/resource "partials/contact.mustache"))
+                  :swag (slurp (io/resource "partials/swag.mustache"))
+                  :work (slurp (io/resource "partials/work.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
