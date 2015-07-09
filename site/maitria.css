@@ -149,6 +149,8 @@ h2 {
       width: 25%; } }
   .highlight-story ul {
     padding: 0; }
+  .highlight-story h3 {
+    text-align: left; }
 
 .highlight-half-story {
   max-width: 700px; }
