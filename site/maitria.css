@@ -87,6 +87,14 @@ h2 {
   font-weight: 400;
   color: #333;
   padding-bottom: 2em; }
+  .segment h3 {
+    height: 2.5em;
+    padding-bottom: 0.5em;
+    border-bottom: solid #eb5e00 1px; }
+  .segment p {
+    text-align: justify;
+    font-size: 110%;
+    color: #333; }
 
 .dark-segment {
   height: 100%;
@@ -101,15 +109,6 @@ h2 {
     color: #eb5e00; }
   .dark-segment .note {
     color: #bbb; }
-
-.highlights h3 {
-  height: 2.5em;
-  padding-bottom: 0.5em;
-  border-bottom: solid #eb5e00 1px; }
-.highlights p {
-  text-align: justify;
-  font-size: 110%;
-  color: #333; }
 
 .story-base, .highlight-story, .highlight-half-story, .regular-story {
   margin: 2%;
@@ -143,7 +142,7 @@ h2 {
     list-style-type: square; }
 
 .highlight-story {
-  max-width: 500px; }
+  max-width: 600px; }
   @media (min-width: 500px) {
     .highlight-story {
       width: 25%; } }
