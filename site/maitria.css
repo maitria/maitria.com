@@ -16,6 +16,19 @@ a:hover, a:active {
   text-decoration: underline;
   color: #eb5e00; }
 
+.fine {
+  font-weight: normal;
+  font-size: 80%; }
+
+.shiny {
+  color: #eb5e00;
+  font-size: 120%;
+  padding-right: 0.2em; }
+
+.quoty {
+  border-left: 1px solid #ccc;
+  padding-left: 10px; }
+
 header {
   padding: 15px;
   border-bottom: solid #eb5e00 1px; }
