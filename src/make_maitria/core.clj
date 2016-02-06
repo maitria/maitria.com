@@ -6,7 +6,8 @@
 (def pages ["index.html"
             "events/intro-to-meditation.html"
             "work-with-us.html"
-            "podcast.html"])
+            "podcast.html"
+            "individual.html"])
 
 (defn source-file
   [page]
@@ -25,7 +26,8 @@
                   :contact (slurp (io/resource "partials/contact.mustache"))
                   :swag (slurp (io/resource "partials/swag.mustache"))
                   :work (slurp (io/resource "partials/work.mustache"))
-                  :work-highlights (slurp (io/resource "partials/work-highlights.mustache"))}
+                  :work-highlights (slurp (io/resource "partials/work-highlights.mustache"))
+                  :individual (slurp (io/resource "partials/individual.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
