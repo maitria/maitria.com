@@ -68,7 +68,7 @@ header {
 h2 {
   text-align: center;
   margin: 0;
-  padding-top: 1em; }
+    margin-padding-top: 1em; }
 
 #greeting {
   color: #666;
@@ -108,10 +108,17 @@ h2 {
   font-weight: 400;
   color: #333;
   padding-bottom: 2em; }
+  .segment h2 {
+    padding-top: 1em;
+    align: left; }
   .segment h3 {
-    height: 2.5em;
+    position: relative;
+    height: 4em;
     padding-bottom: 0.5em;
     border-bottom: solid #eb5e00 1px; }
+    .segment h3 div {
+      position: absolute;
+      bottom: 1em; }
   .segment p {
     text-align: justify;
     font-size: 110%;
@@ -121,6 +128,9 @@ h2 {
   height: 100%;
   background: #333;
   color: #ccc; }
+  .dark-segment h2 {
+    padding-top: 1em;
+    align: left; }
   .dark-segment a:link, .dark-segment a:visited {
     text-decoration: none;
     font-weight: bold;

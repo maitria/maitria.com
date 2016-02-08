@@ -67,7 +67,7 @@ header
 h2
   text-align: center
   margin: 0
-  padding-top: 1em
+    padding-top: 1em
 
 #greeting 
   color: $medium-gray
@@ -100,16 +100,24 @@ h2
   font-size: 85%
   color: $medium-gray
 
+
 .segment 
   width: 100%
   text-align: center
   font-weight: 400
   color: $dark-gray
   padding-bottom: 2em
+  h2
+    padding-top: 1em
+    align: left
   h3
-    height: 2.5em
+    position: relative
+    height: 4em
     padding-bottom: .5em
     border-bottom: solid $maitria-orange 1px
+    div
+      position: absolute
+      bottom: 1em
   p
     text-align: justify
     font-size: 110%
@@ -119,6 +127,9 @@ h2
   height: 100%
   background: $dark-gray
   color: $lightest-gray
+  h2
+    padding-top: 1em
+    align: left
   a
     &:link, &:visited
       text-decoration: none
