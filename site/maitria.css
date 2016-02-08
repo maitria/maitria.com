@@ -93,12 +93,12 @@ h2 {
         margin: auto;
         width: 300px; }
       #greeting.one-line {
-        font-size: 9vw; } }
+        font-size: 8vw; } }
   @media (min-width: 500px) {
     #greeting {
       font-size: 6em; }
       #greeting.one-line {
-        font-size: 12vw; } }
+        font-size: 10vw; } }
 
 .note-indicator {
   color: #eb5e00;
