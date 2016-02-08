@@ -52,7 +52,7 @@ header
     @media ($full-size)  
       text-align: right
       float: right
-    @media (max-width: 800px)
+    @media ($less-than-full-size)
       width: 100%
       display: block
     li
@@ -67,7 +67,7 @@ header
 h2
   text-align: center
   margin: 0
-  padding-top: 1em
+    padding-top: 1em
 
 #greeting 
   color: $medium-gray
@@ -82,12 +82,20 @@ h2
     display: block
     margin: auto
     width: 150px
+  &.one-line
+    font-size: 250%
   @media ($full-size) 
     font-size: 8em
     img
       display: block
       margin: auto
       width: 300px
+    &.one-line
+      font-size: 9vw
+  @media ($bigger-than-phone)
+    font-size: 6em
+    &.one-line
+      font-size: 12vw
 
 .note-indicator
   color: $maitria-orange
@@ -100,16 +108,24 @@ h2
   font-size: 85%
   color: $medium-gray
 
+
 .segment 
   width: 100%
   text-align: center
   font-weight: 400
   color: $dark-gray
   padding-bottom: 2em
+  h2
+    padding-top: 1em
+    align: left
   h3
-    height: 2.5em
+    position: relative
+    height: 4em
     padding-bottom: .5em
     border-bottom: solid $maitria-orange 1px
+    div
+      position: absolute
+      bottom: 1em
   p
     text-align: justify
     font-size: 110%
@@ -119,6 +135,9 @@ h2
   height: 100%
   background: $dark-gray
   color: $lightest-gray
+  h2
+    padding-top: 1em
+    align: left
   a
     &:link, &:visited
       text-decoration: none
@@ -161,9 +180,9 @@ h2
 
 .highlight-story
   @extend .story-base
-  max-width: 600px
+  max-width: 350px
   @media ($bigger-than-phone)
-    width: 25% 
+    width: 40% 
   ul
     padding: 0
   h3
