@@ -83,13 +83,22 @@ h2 {
     display: block;
     margin: auto;
     width: 150px; }
+  #greeting.one-line {
+    font-size: 250%; }
   @media (min-width: 800px) {
     #greeting {
       font-size: 8em; }
       #greeting img {
         display: block;
         margin: auto;
-        width: 300px; } }
+        width: 300px; }
+      #greeting.one-line {
+        font-size: 9vw; } }
+  @media (min-width: 500px) {
+    #greeting {
+      font-size: 6em; }
+      #greeting.one-line {
+        font-size: 12vw; } }
 
 .note-indicator {
   color: #eb5e00;

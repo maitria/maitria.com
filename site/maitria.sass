@@ -52,7 +52,7 @@ header
     @media ($full-size)  
       text-align: right
       float: right
-    @media (max-width: 800px)
+    @media ($less-than-full-size)
       width: 100%
       display: block
     li
@@ -82,12 +82,20 @@ h2
     display: block
     margin: auto
     width: 150px
+  &.one-line
+    font-size: 250%
   @media ($full-size) 
     font-size: 8em
     img
       display: block
       margin: auto
       width: 300px
+    &.one-line
+      font-size: 9vw
+  @media ($bigger-than-phone)
+    font-size: 6em
+    &.one-line
+      font-size: 12vw
 
 .note-indicator
   color: $maitria-orange
