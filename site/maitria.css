@@ -163,10 +163,10 @@ h2 {
     list-style-type: square; }
 
 .highlight-story {
-  max-width: 600px; }
+  max-width: 350px; }
   @media (min-width: 500px) {
     .highlight-story {
-      width: 25%; } }
+      width: 40%; } }
   .highlight-story ul {
     padding: 0; }
   .highlight-story h3 {
