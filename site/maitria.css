@@ -175,7 +175,7 @@ h2 {
   height: inherit;
   vertical-align: top;
   display: inline-block; }
-  .story-base ha, .highlight-story ha, .regular-story ha {
+  .story-base h5, .highlight-story h5, .regular-story h5 {
     text-align: left;
     margin: 1em 0 0 0;
     font-weight: bold; }
