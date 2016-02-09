@@ -154,6 +154,8 @@ h2 {
   height: 100%;
   background: #333;
   color: #ccc; }
+  .dark-segment p {
+    color: #ccc; }
   .dark-segment h2 {
     padding-top: 1em;
     align: left; }
