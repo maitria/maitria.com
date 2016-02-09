@@ -17,8 +17,8 @@ a:hover, a:active {
   color: #eb5e00; }
 
 .open {
-  padding-top: 8em;
-  height: 20em; }
+  padding-top: 10em;
+  padding-bottom: 8em; }
   @media (max-width: 500px) {
     .open {
       padding-top: 1em;
