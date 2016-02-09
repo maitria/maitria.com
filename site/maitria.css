@@ -16,6 +16,9 @@ a:hover, a:active {
   text-decoration: underline;
   color: #eb5e00; }
 
+.book-title {
+  font-style: italic; }
+
 .fine {
   font-weight: normal;
   font-size: 80%; }
@@ -156,6 +159,10 @@ h2 {
   height: inherit;
   vertical-align: top;
   display: inline-block; }
+  .story-base h5, .highlight-story h5, .regular-story h5 {
+    text-align: left;
+    margin: 1em 0 0 0;
+    font-weight: bold; }
   .story-base h4, .highlight-story h4, .regular-story h4 {
     text-align: left;
     margin-bottom: 0;

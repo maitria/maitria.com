@@ -27,7 +27,9 @@
                   :swag (slurp (io/resource "partials/swag.mustache"))
                   :work (slurp (io/resource "partials/work.mustache"))
                   :work-highlights (slurp (io/resource "partials/work-highlights.mustache"))
-                  :yourself (slurp (io/resource "partials/yourself.mustache"))}
+                  :yourself (slurp (io/resource "partials/yourself.mustache"))
+                  :courses-practice (slurp (io/resource "partials/courses-practice.mustache"))
+                  :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
