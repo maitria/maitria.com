@@ -32,6 +32,9 @@ a:hover, a:active {
     text-decoration: none; }
     .open a:hover {
       color: white;
+      background-color: #0000FF;
+      -webkit-transition: background-color 1s, -webkit-transform 1s;
+      transition: background-color 1s, color 1s;
       background: #eb5e00; }
 
 .book-title {
