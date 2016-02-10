@@ -7,7 +7,8 @@
             "events/intro-to-meditation.html"
             "work-with-us.html"
             "podcast.html"
-            "yourself.html"])
+            "yourself.html"
+            "coaching.html"])
 
 (defn source-file
   [page]
@@ -29,7 +30,8 @@
                   :work-highlights (slurp (io/resource "partials/work-highlights.mustache"))
                   :yourself (slurp (io/resource "partials/yourself.mustache"))
                   :courses-practice (slurp (io/resource "partials/courses-practice.mustache"))
-                  :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))}
+                  :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))
+                  :coaching (slurp (io/resource "partials/coaching.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))
