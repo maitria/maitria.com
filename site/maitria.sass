@@ -105,8 +105,22 @@ h2
     display: block
     margin: auto
     width: 150px
-  &.one-line
-    font-size: 250%
+  @media ($phone-size)
+    font-size: 3em
+    img
+      display: block
+      margin: auto
+      width: 100px
+    &.one-line
+      font-size: 2em
+  @media ($bigger-than-phone)
+    font-size: 6em
+    img
+      display: block
+      margin: auto
+      width: 150px
+    &.one-line
+      font-size: 3em
   @media ($full-size) 
     font-size: 8em
     img
@@ -114,11 +128,7 @@ h2
       margin: auto
       width: 300px
     &.one-line
-      font-size: 8vw
-  @media ($bigger-than-phone)
-    font-size: 6em
-    &.one-line
-      font-size: 10vw
+      font-size: 4em
 
 .note-indicator
   color: $maitria-orange
