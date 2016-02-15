@@ -8,7 +8,8 @@
             "work-with-us.html"
             "podcast.html"
             "yourself.html"
-            "coaching.html"])
+            "coaching.html"
+            "coc.html"])
 
 (defn source-file
   [page]
