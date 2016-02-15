@@ -115,7 +115,7 @@ h2 {
         margin: auto;
         width: 100px; }
       #greeting.one-line {
-        font-size: 2em; } }
+        font-size: 1.5em; } }
   @media (min-width: 500px) {
     #greeting {
       font-size: 6em; }
@@ -235,7 +235,8 @@ h2 {
 .regular-story {
   font-size: 100%; }
   .regular-story h3 {
-    height: 2em; }
+    height: 3em;
+    text-align: left; }
   @media (min-width: 500px) {
     .regular-story {
       margin-left: 15%;
