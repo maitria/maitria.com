@@ -234,6 +234,8 @@ h2 {
 
 .regular-story {
   font-size: 100%; }
+  .regular-story h3 {
+    height: 2em; }
   @media (min-width: 500px) {
     .regular-story {
       margin-left: 15%;
