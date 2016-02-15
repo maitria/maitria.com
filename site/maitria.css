@@ -115,7 +115,7 @@ h2 {
         margin: auto;
         width: 100px; }
       #greeting.one-line {
-        font-size: 1.5em; } }
+        font-size: 7vw; } }
   @media (min-width: 500px) {
     #greeting {
       font-size: 6em; }
@@ -124,7 +124,7 @@ h2 {
         margin: auto;
         width: 150px; }
       #greeting.one-line {
-        font-size: 3em; } }
+        font-size: 7vw; } }
   @media (min-width: 800px) {
     #greeting {
       font-size: 8em; }
