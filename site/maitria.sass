@@ -19,12 +19,7 @@ a
     text-decoration: underline
     color: $maitria-orange
 
-.open
-  padding-top: 10em
-  padding-bottom: 8em
-  @media ($phone-size)
-    padding-top: 1em
-    padding-bottom: 1em
+.bolder-link
   a
     font-size: 150%
     display: inline-block
@@ -38,6 +33,14 @@ a
       -webkit-transition: background-color 1s, -webkit-transform 1s
       transition: background-color 1s, color 1s
       background: $maitria-orange
+
+.open
+  @extend .bolder-link
+  padding-top: 10em
+  padding-bottom: 8em
+  @media ($phone-size)
+    padding-top: 1em
+    padding-bottom: 1em
 
 .book-title
   font-style: italic
