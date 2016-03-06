@@ -22,12 +22,12 @@ a:hover, a:active {
   padding: 10px;
   border: solid #eb5e00 1px;
   margin: auto;
-  text-decoration: none; }
+  text-decoration: none;
+  background: #fdeee5; }
   .bolder-link a:hover, .open a:hover {
-    color: white;
-    background-color: #0000FF;
+    color: #fdeee5;
     -webkit-transition: background-color 1s, -webkit-transform 1s;
-    transition: background-color 1s, color 1s;
+    transition: background-color 0.5s, color 0.5s;
     background: #eb5e00; }
 
 .open {
