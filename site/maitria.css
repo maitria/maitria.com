@@ -119,6 +119,7 @@ h2 {
         margin: auto;
         width: 100px; }
       #greeting.one-line {
+        padding-top: 1em;
         font-size: 7vw; } }
   @media (min-width: 500px) {
     #greeting {
