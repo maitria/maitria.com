@@ -16,19 +16,22 @@ a:hover, a:active {
   text-decoration: underline;
   color: #eb5e00; }
 
-.bolder-link a, .open a {
-  font-size: 150%;
-  display: inline-block;
-  padding: 10px;
-  border: solid #eb5e00 1px;
-  margin: auto;
-  text-decoration: none;
-  background: #fdeee5; }
-  .bolder-link a:hover, .open a:hover {
-    color: #fdeee5;
-    -webkit-transition: background-color 1s, -webkit-transform 1s;
-    transition: background-color 0.5s, color 0.5s;
-    background: #eb5e00; }
+.bolder-link, .open {
+  padding-top: 4em;
+  padding-bottom: 4em; }
+  .bolder-link a, .open a {
+    font-size: 150%;
+    display: inline-block;
+    padding: 10px;
+    border: solid #eb5e00 1px;
+    margin: auto;
+    text-decoration: none;
+    background: #fdeee5; }
+    .bolder-link a:hover, .open a:hover {
+      color: #fdeee5;
+      -webkit-transition: background-color 1s, -webkit-transform 1s;
+      transition: background-color 0.5s, color 0.5s;
+      background: #eb5e00; }
 
 .open {
   padding-top: 10em;
