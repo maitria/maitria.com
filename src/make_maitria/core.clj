@@ -22,13 +22,11 @@
 (defn generate
   [page]
   (let [partials {:header (slurp (io/resource "partials/header.mustache"))
-                  :events (slurp (io/resource "partials/events.mustache"))
                   :conference (slurp (io/resource "partials/conference.mustache"))
                   :about (slurp (io/resource "partials/about.mustache"))
                   :contact (slurp (io/resource "partials/contact.mustache"))
                   :swag (slurp (io/resource "partials/swag.mustache"))
                   :work (slurp (io/resource "partials/work.mustache"))
-                  :work-highlights (slurp (io/resource "partials/work-highlights.mustache"))
                   :yourself (slurp (io/resource "partials/yourself.mustache"))
                   :courses-practice (slurp (io/resource "partials/courses-practice.mustache"))
                   :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))
