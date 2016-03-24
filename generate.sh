@@ -19,7 +19,7 @@ echo "==========================================="
 echo
 echo
 echo "Compiling .sass to .css"
-sass --update site:site
+sass --update sass:site
 echo
 
 lein run
