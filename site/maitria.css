@@ -165,7 +165,8 @@ h2 {
     height: 4em;
     padding-bottom: 0.5em;
     border-bottom: solid #eb5e00 1px; }
-    .segment h3 div {
+    .segment h3 span {
+      display: block;
       position: absolute;
       bottom: 1em; }
   .segment p {

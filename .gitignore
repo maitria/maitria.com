@@ -6,8 +6,9 @@
 .sass-cache/
 
 site/index.html
-site/events/intro-to-meditation.html
 site/coaching.html
+site/yourself.html
+site/work-with-us.html
 
 #leiningen's stuff
 /target

@@ -28,7 +28,7 @@
                   :swag (slurp (io/resource "partials/swag.mustache"))
                   :work (slurp (io/resource "partials/work.mustache"))
                   :yourself (slurp (io/resource "partials/yourself.mustache"))
-                  :courses-practice (slurp (io/resource "partials/courses-practice.mustache"))
+                  :etl (slurp (io/resource "partials/etl.mustache"))
                   :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))
                   :coaching (slurp (io/resource "partials/coaching.mustache"))}
         variables {:there-is-currently "no data needed"}
