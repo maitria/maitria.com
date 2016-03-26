@@ -12,7 +12,8 @@ killall $browser
 
 #destroy previously generated site
 rm site/index.html
-rm site/events/intro-to-meditation.html
+rm site/yourself.html
+rm site/coc.html
 rm site/*.css
 
 echo "==========================================="
