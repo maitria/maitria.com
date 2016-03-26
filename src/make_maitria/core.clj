@@ -4,7 +4,6 @@
   (:gen-class))
 
 (def pages ["index.html"
-            "events/intro-to-meditation.html"
             "work-with-us.html"
             "podcast.html"
             "yourself.html"
