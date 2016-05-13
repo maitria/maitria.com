@@ -8,6 +8,7 @@
             "podcast.html"
             "yourself.html"
             "coaching.html"
+            "speaking.html"
             "coc.html"])
 
 (defn source-file
@@ -29,7 +30,8 @@
                   :yourself (slurp (io/resource "partials/yourself.mustache"))
                   :etl (slurp (io/resource "partials/etl.mustache"))
                   :individual-coaching (slurp (io/resource "partials/individual-coaching.mustache"))
-                  :coaching (slurp (io/resource "partials/coaching.mustache"))}
+                  :coaching (slurp (io/resource "partials/coaching.mustache"))
+                  :talks (slurp (io/resource "partials/talks.mustache"))}
         variables {:there-is-currently "no data needed"}
         content (render-resource (source-file page) variables partials)]
     (spit (destination-file page) content)))

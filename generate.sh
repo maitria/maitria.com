@@ -14,6 +14,7 @@ killall $browser
 rm site/index.html
 rm site/yourself.html
 rm site/coc.html
+rm site/speaking.html
 rm site/*.css
 
 echo "==========================================="
