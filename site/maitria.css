@@ -199,11 +199,16 @@ h2 {
   height: inherit;
   vertical-align: top;
   display: inline-block; }
+  .story-base img, .highlight-story img, .regular-story img {
+    width: 150px;
+    float: left;
+    margin-right: 15px; }
   .story-base h5, .highlight-story h5, .regular-story h5 {
     text-align: left;
     margin: 1em 0 0 0;
     font-weight: bold; }
   .story-base h4, .highlight-story h4, .regular-story h4 {
+    font-size: 18px;
     text-align: left;
     margin-bottom: 0;
     font-weight: bold;
@@ -218,10 +223,14 @@ h2 {
     line-height: 150%; }
   @media (max-width: 800px) {
     .story-base, .highlight-story, .regular-story {
-      font-size: 80%; } }
+      font-size: 80%; }
+      .story-base img, .highlight-story img, .regular-story img {
+        width: 100px; } }
   @media (max-width: 500px) {
     .story-base, .highlight-story, .regular-story {
-      font-size: 100%; } }
+      font-size: 100%; }
+      .story-base img, .highlight-story img, .regular-story img {
+        width: 80px; } }
   .story-base li, .highlight-story li, .regular-story li {
     text-align: left;
     margin: 0 0 0.5em 1em;
