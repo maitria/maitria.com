@@ -119,6 +119,7 @@ h2 {
         margin: auto;
         width: 100px; }
       #greeting.one-line {
+        margin-top: 1em;
         padding-top: 1em;
         font-size: 7vw; } }
   @media (min-width: 500px) {
@@ -129,6 +130,7 @@ h2 {
         margin: auto;
         width: 150px; }
       #greeting.one-line {
+        padding-top: 1em;
         font-size: 7vw; } }
   @media (min-width: 800px) {
     #greeting {
@@ -138,6 +140,7 @@ h2 {
         margin: auto;
         width: 300px; }
       #greeting.one-line {
+        padding-top: 1em;
         font-size: 4em; } }
 
 .note-indicator {
