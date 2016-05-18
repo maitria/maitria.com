@@ -1,0 +1,72 @@
+@import 'mixins.less';
+
+@text: #444;
+@accent: #777;
+
+@adjust_to_match_bottom_of_logo: 23px;
+
+.print-only {
+  display: none;
+}
+
+.screen-only {
+  display: inline;
+}
+
+body { 
+  max-width: 900px;
+  margin-top: 75px;
+  .standard_text; 
+  font-size: 95%;
+  a {
+  color: @accent
+  }
+}
+ 
+header {
+  height: 60px;
+  img {
+    .standard_image
+    }
+  h1 {
+    padding-top: @adjust_to_match_bottom_of_logo;
+    white-space: nowrap;
+    }
+}
+
+section {
+  clear: both;
+  }
+
+article {
+  overflow: hidden;
+  float: left;
+  width: 360px;
+  height: 300px;
+  margin: 25px;
+  h1 {
+    font-size: 120%;
+    color: @accent;
+  }
+
+  h2 {
+    font-size: 120%;
+    color: @text;
+    line-height: 100%;
+  }
+
+  h3 {
+    font-size: 100%;
+    color: @accent;
+    line-height: 100%;
+  }
+
+  li {
+    list-style-type: none;
+  } 
+}
+
+#lets-talk {
+  width: 100%;
+  clear: both;
+}
