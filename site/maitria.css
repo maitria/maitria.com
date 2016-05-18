@@ -205,6 +205,7 @@ h2 {
     float: left;
     margin-right: 15px; }
   .story-base h5, .highlight-story h5, .regular-story h5 {
+    font-size: 100%;
     text-align: left;
     margin: 1em 0 0 0;
     font-weight: bold; }
