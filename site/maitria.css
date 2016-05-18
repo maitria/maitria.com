@@ -111,17 +111,6 @@ h2 {
     display: block;
     margin: auto;
     width: 150px; }
-  @media (max-width: 500px) {
-    #greeting {
-      font-size: 3em; }
-      #greeting img {
-        display: block;
-        margin: auto;
-        width: 100px; }
-      #greeting.one-line {
-        margin-top: 1em;
-        padding-top: 1em;
-        font-size: 7vw; } }
   @media (min-width: 500px) {
     #greeting {
       font-size: 6em; }
@@ -130,8 +119,7 @@ h2 {
         margin: auto;
         width: 150px; }
       #greeting.one-line {
-        padding-top: 1em;
-        font-size: 7vw; } }
+        font-size: 10vw; } }
   @media (min-width: 800px) {
     #greeting {
       font-size: 8em; }
@@ -141,7 +129,17 @@ h2 {
         width: 300px; }
       #greeting.one-line {
         padding-top: 1em;
-        font-size: 4em; } }
+        font-size: 10vw; } }
+  @media (max-width: 500px) {
+    #greeting {
+      font-size: 4em; }
+      #greeting img {
+        display: block;
+        margin: auto;
+        width: 100px; }
+      #greeting.one-line {
+        padding-top: 1em;
+        font-size: 2em; } }
 
 .note-indicator {
   color: #eb5e00;
