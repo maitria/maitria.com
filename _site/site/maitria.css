@@ -111,16 +111,6 @@ h2 {
     display: block;
     margin: auto;
     width: 150px; }
-  @media (max-width: 500px) {
-    #greeting {
-      font-size: 3em; }
-      #greeting img {
-        display: block;
-        margin: auto;
-        width: 100px; }
-      #greeting.one-line {
-        padding-top: 1em;
-        font-size: 7vw; } }
   @media (min-width: 500px) {
     #greeting {
       font-size: 6em; }
@@ -129,7 +119,7 @@ h2 {
         margin: auto;
         width: 150px; }
       #greeting.one-line {
-        font-size: 7vw; } }
+        font-size: 10vw; } }
   @media (min-width: 800px) {
     #greeting {
       font-size: 8em; }
@@ -138,7 +128,18 @@ h2 {
         margin: auto;
         width: 300px; }
       #greeting.one-line {
-        font-size: 4em; } }
+        padding-top: 1em;
+        font-size: 10vw; } }
+  @media (max-width: 500px) {
+    #greeting {
+      font-size: 4em; }
+      #greeting img {
+        display: block;
+        margin: auto;
+        width: 100px; }
+      #greeting.one-line {
+        padding-top: 1em;
+        font-size: 2em; } }
 
 .note-indicator {
   color: #eb5e00;
@@ -204,6 +205,7 @@ h2 {
     float: left;
     margin-right: 15px; }
   .story-base h5, .highlight-story h5, .regular-story h5 {
+    font-size: 100%;
     text-align: left;
     margin: 1em 0 0 0;
     font-weight: bold; }
