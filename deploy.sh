@@ -52,7 +52,7 @@ echo 'pushed'
 echo
 echo 'deploying to maitria webserver'
 rsync -r --progress --delete ./site/ root@104.131.105.47:/srv/maitria.com 
-if [[ $? -ne 0 ]]
+if [[ $? -eq 0 ]]
 then
   printf $grn
   echo "=========================================="
