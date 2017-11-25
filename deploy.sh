@@ -52,8 +52,18 @@ echo 'pushed'
 echo
 echo 'deploying to maitria webserver'
 rsync -r --progress --delete ./site/ root@104.131.105.47:/srv/maitria.com 
-printf $grn
-echo "=========================================="
-echo " Success! Deployed                        "
-echo "=========================================="
-printf $end
+if [[ $? -ne 0 ]]
+then
+  printf $grn
+  echo "=========================================="
+  echo " Success! Deployed                        "
+  echo "=========================================="
+  printf $end
+else
+  printf $red
+  echo "=========================================="
+  echo " DEPLOY FAILED                            "
+  echo "=========================================="
+  printf $end
+  exit 1
+fi
