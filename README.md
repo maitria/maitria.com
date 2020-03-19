@@ -1,4 +1,4 @@
-#maitria.com
+# maitria.com
 
 ## What is it?
 It's the website for [maitria.com](http://maitria.com/). It started just HTML & CSS. Duplication meant it was time to pull in SASS, and now here comes Clojure. It's definitely a place for learning.
@@ -21,7 +21,7 @@ We'd love a contribution from you. If you're a total beginner, you can get some 
 
 Learning HTML? Fix a typo, and make your first pull request. If you're learning SASS, help us reduce duplication. Anybody want to learn Clojure web dev with me? :D &mdash; Alex 
 
-## #ask us
+## ask us
 If you are new to the whole open-source, forking repos, pull requests, even coding thing, but you think you can do the edits to fix a typo or whatever, *get in touch with us* and if we can work the timing out, we'll talk you through it, walk you through it, or remote-pair or something. We'd love that.
 
 ### pull requests
