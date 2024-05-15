@@ -80,6 +80,11 @@ h3 {
 	margin-left: 0.5em;
 }
 
+.title {
+	font-style: italic;
+	display: inline;
+}
+
 .what {
 	margin-top: 0.25em;
 	margin-bottom: 0.75em;
